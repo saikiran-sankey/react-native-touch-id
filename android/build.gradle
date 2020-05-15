@@ -41,5 +41,5 @@ repositories {
 }
 
 dependencies {
-  implementation "com.facebook.react:react-native:0.60.6"
+  implementation "com.facebook.react:react-native:${safeExtGet('reactnativeVersion', '+')}"
 }
